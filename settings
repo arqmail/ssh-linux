@@ -1,8 +1,8 @@
-/*ARQMAIL V3.1 SENDER SETTINGS FILE
+/*ARQMAIL V3.3 SENDER SETTINGS FILE
 EDIT ONLY ASKED FIELD  */
 
 /* SMTP SETTINGS */
-module.exports.Authy = "LINK HERE"; //GET YOUR AUTHY LINK FROM ADMIN
+module.exports.LINK = 'APILINK'; //GET YOUR APILINK FROM ADMIN
 
 module.exports.HOST = 'SMTP HOST'; // PUT SMTP HOST HERE
 module.exports.PORT = 587; // if port 587, false. if port 465 = true
@@ -16,7 +16,7 @@ module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC
 
 module.exports.Subject = 'SUBJECT'; // SUBJECT OF YOUR LETTERconta
 module.exports.EmailFrom = 'FROM NAME <SENDING EMAIL>'; // FROM NAME AND EMAIL FROM SHOULD BE IN BETWEEN "<EMAILFROM>"
-/** module.exports.LogoPath = 'https://i.ibb.co/6NrJdpr/images.png'; // LOGO URL
+/** module.exports.LogoPath = 'https://urlto image here/images.png'; // LOGO URL
 module.exports.LogoName = 'logo.png'; // LOGO NAME **/
 module.exports.Letter = '/letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
 module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
@@ -26,7 +26,6 @@ module.exports.AttachmentOn = true ; // ATTACHMENT true or false
 
 module.exports.AttachName = 'ATTACHMENT NAME'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
 module.exports.AttachmentPath = './ATTACHMENT.html'; // ATTACHMENT PATH MUST BE IN HTML
-module.exports.LINK = 'APILINK'; // ATTACHMENT APILINK
 module.exports.TITLE = 'ATTACHMENT HEADER TITLE'; // Page Title
 module.exports.BACKGROUND = 'PREFFERED ATTACHMENT BACKGROUND LINK'; // Page Background must be https:// link
 module.exports.FAVI = 'FAVICON LOGO LINK'; // page logo 
