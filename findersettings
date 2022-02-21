@@ -19,7 +19,7 @@ module.exports.FINDEREMAIL = 'EMAIL@EMAIL.COM'; // YOUR EMAIL "<EMAIL@ARQMAIL.XY
 module.exports.SENDLINK = ' '; // your link or attachment API
 module.exports.ImagePath = ' '; // image URL/Path
 module.exports.Letter = 'letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
-module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
+module.exports.List = 'finderlist.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
 
 /* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
 module.exports.AttachmentOn = true ; // use ATTACHMENT true or false
