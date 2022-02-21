@@ -1,7 +1,8 @@
-/*UFO_Ai SENDER v3.4 SETTINGS 
+/*UFO_Ai SENDER v4.0 SETTINGS */
+
+module.exports.AUTHYCODE = ''; //ARQmail Authy Code
 
 /* SMTP SETTINGS */
-module.exports.LINK = ''; // APILINK
 
 module.exports.HOST = ''; // PUT SMTP HOST HERE
 module.exports.PORT = 587; // if port 587, false. if port 465 = true
@@ -15,20 +16,14 @@ module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC
 
 module.exports.Subject = ' '; // SUBJECT OF YOUR LETTERconta
 module.exports.EmailFrom = ' '; // FROM NAME AND EMAIL FROM SHOULD BE IN BETWEEN "<EMAILFROM>"
-module.exports.SENDLINK = ' '; // link or url 
-module.exports.HeaderPath = ' '; // header URL/Path
-module.exports.FooterPath = ' '; // footer URL/Path 
+module.exports.SENDLINK = ' '; // your link or attachment API
+module.exports.ImagePath = ' '; // image URL/Path
 module.exports.Letter = 'letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
 module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
 
 /* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
-module.exports.AttachmentOn = true ; // ATTACHMENT true or false
+module.exports.AttachmentOn = true ; // use ATTACHMENT true or false
+module.exports.ImageOn = true ; // Use Image true or false
 
 module.exports.AttachName = ''; // ATTACHMENT NAME WORKS WITH FUNCTIONS
-module.exports.AttachmentPath = './ATTACHMENT.html'; // ATTACHMENT PATH MUST BE IN HTML
-module.exports.TITLE = ' '; // Page Title
-module.exports.BACKGROUND = ' '; // Page Background must be https:// link
-module.exports.FAVI = ' '; // page logo 
-module.exports.LOCKREDIR = ' '; // locked file redirect
-module.exports.SUCCESSREDIR = ' '; // success attempt redirect
-
+module.exports.AttachmentPath = './ATTACHMENT.html'; // path to attachment
