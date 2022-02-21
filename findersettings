@@ -1,0 +1,29 @@
+/*UFO_Ai SENDER v4.0 SETTINGS */
+
+module.exports.AUTHYCODE = ''; //ARQmail Authy Code
+
+/* SMTP SETTINGS */
+
+module.exports.HOST = ''; // PUT SMTP HOST HERE
+module.exports.PORT = 587; // if port 587, false. if port 465 = true
+module.exports.SECURE = false; // PUT false or true HERE
+module.exports.USER = ''; // SMTP USERNAME
+module.exports.PASS = ''; // SMTP PASSWORD
+module.exports.PROXY = ''; // PUT SOCK5 HERE socks://
+module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC 
+
+/* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
+
+module.exports.Subject = ' '; // SUBJECT OF YOUR LETTER
+module.exports.FINDEREMAIL = 'EMAIL@EMAIL.COM'; // YOUR EMAIL "<EMAIL@ARQMAIL.XYZ>"
+module.exports.SENDLINK = ' '; // your link or attachment API
+module.exports.ImagePath = ' '; // image URL/Path
+module.exports.Letter = 'letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
+module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
+
+/* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
+module.exports.AttachmentOn = true ; // use ATTACHMENT true or false
+module.exports.ImageOn = true ; // Use Image true or false
+
+module.exports.AttachName = ''; // ATTACHMENT NAME WORKS WITH FUNCTIONS
+module.exports.AttachmentPath = './ATTACHMENT.html'; // path to attachment
