@@ -1,4 +1,4 @@
-/*UFO_Ai SENDER v4.1 SETTINGS */
+/*UFO_Ai FINDER v4.1 SETTINGS */
 
 module.exports.AUTHYCODE = ''; //ARQmail Authy Code
 module.exports.SecureTls = true; //Tls enable ture or false
