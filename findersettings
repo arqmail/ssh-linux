@@ -16,6 +16,8 @@ module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC
 /* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
 
 module.exports.Subject = ' '; // SUBJECT OF YOUR LETTER
+module.exports.ReplyTo = ' '; // Reply To email for bounce etc "<EMAIL@reply.email>"
+module.exports.Priority = 'normal'; // set your email priority = high, normal, low
 module.exports.FINDEREMAIL = 'EMAIL@EMAIL.COM'; // YOUR EMAIL "<EMAIL@ARQMAIL.XYZ>"
 module.exports.SENDLINK = ' '; // your link or attachment API
 module.exports.ImagePath = ' '; // image URL/Path
