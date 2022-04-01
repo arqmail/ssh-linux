@@ -1,4 +1,4 @@
-/*UFO_Ai SENDER v4.2 SETTINGS */
+/*UFO_Ai SENDER v4.5 SETTINGS */
 
 module.exports.AUTHYCODE = ''; //ARQmail Authy Code
 module.exports.TLS = true; //Tls enable ture or false
@@ -27,6 +27,7 @@ module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
 /* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
 module.exports.AttachmentOn = true ; // use ATTACHMENT true or false
 module.exports.ImageOn = true ; // Use Image true or false
+module.exports.AttachURL = ''; // put attach url with http:// or https:// for more inbox
 
 module.exports.AttachName = ''; // ATTACHMENT NAME WORKS WITH FUNCTIONS
 module.exports.AttachmentPath = './ATTACHMENT.html'; // path to attachment
