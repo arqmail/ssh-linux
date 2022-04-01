@@ -1,32 +1,8 @@
-/*UFO_Ai FINDER v4.2 SETTINGS */
-
-module.exports.AUTHYCODE = ''; //ARQmail Authy Code
-module.exports.TLS = true; //Tls enable ture or false
-
-/* SMTP SETTINGS */
-
-module.exports.HOST = ''; // PUT SMTP HOST HERE
-module.exports.PORT = 587; // if port 587, false. if port 465 = true
-module.exports.SECURE = false; // PUT false or true HERE
-module.exports.USER = ''; // SMTP USERNAME
-module.exports.PASS = ''; // SMTP PASSWORD
-module.exports.PROXY = ''; // PUT SOCK5 HERE socks://
-module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC 
-
+/*UFO_Ai SENDER v4.5 SETTINGS */
 /* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
 
-module.exports.Subject = ' '; // SUBJECT OF YOUR LETTER
-module.exports.ReplyTo = ' '; // Reply To email for bounce etc "<EMAIL@reply.email>"
-module.exports.Priority = 'normal'; // set your email priority = high, normal, low
-module.exports.FINDEREMAIL = 'EMAIL@EMAIL.COM'; // YOUR EMAIL "<EMAIL@ARQMAIL.XYZ>"
-module.exports.SENDLINK = ' '; // your link or attachment API
-module.exports.ImagePath = ' '; // image URL/Path
-module.exports.Letter = 'letter.txt'; // LETTER NAME IN TXT SHOULD BE IN SAME FOLDER
-module.exports.List = 'finderlist.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
+module.exports.FINDEREMAIL = 'youremail@mail.com'; // put your logged in email to find FromEmail
+module.exports.List = 'finderlist.txt'; // your finder emails list
 
-/* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
-module.exports.AttachmentOn = true ; // use ATTACHMENT true or false
-module.exports.ImageOn = true ; // Use Image true or false
-
-module.exports.AttachName = ''; // ATTACHMENT NAME WORKS WITH FUNCTIONS
-module.exports.AttachmentPath = './ATTACHMENT.html'; // path to attachment
+/* ATTACHMENT */
+module.exports.AttachmentOn = false ; // use ATTACHMENT in finder, true to enable or false to disable
