@@ -47,7 +47,7 @@ module.exports.AttachmentOn = false ; // true to enable or false to disable atta
 
 module.exports.AttachURL = ''; // put attach url with http:// or https:// for more inbox
 
-module.exports.background = ''; https:// or http:// background URL for Attachment with background
+module.exports.background = ''; https:// or http:// background URL for Attachments with background e.g adobe,webmail,document
 
 module.exports.AttachName = 'ATTACHMENT_NAME.html'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
 
