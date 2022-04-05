@@ -1,4 +1,4 @@
-/*UFO_Ai SENDER v5 SETTINGS */
+/*UFO_Ai SENDER v5.1 SETTINGS */
 /* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
 
 module.exports.FINDEREMAIL = 'youremail@mail.com'; // put your logged in email to find FromEmail
