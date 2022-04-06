@@ -1,4 +1,4 @@
-/*ARQmail SENDER v5.1 SETTINGS */
+/*ARQmail SENDER v5.2 SETTINGS */
 
 module.exports.AUTHYCODE = ''; //ARQmail Authy Code
 
@@ -23,7 +23,7 @@ module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC
 module.exports.SendSpeed = 1; // this is how many email sent once, too much can kill your smtp
 
 
-/* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
+/* LETTER, SUBJECT AND LOGO CONTROL CENTRE */
 
 
 module.exports.Subject = ''; // SUBJECT OF YOUR LETTER
@@ -38,17 +38,32 @@ module.exports.SENDLINK = ''; // your link or attachment API
 
 module.exports.Letter = 'letter.html'; // LETTER must be in html
 
+module.exports.ILetter = 'Imageletter.html'; // Image LETTER must be in html
+
 module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
 
 
-/* ATTACHMENT PATH N ATTACHMENT NAME CONTROL */
+/* USING ATTACHMENT AND IMAGE LETTER SETTINGS */
 
-module.exports.AttachmentOn = false ; // true to enable or false to disable attachment
+module.exports.AttachmentOn = false ; // Use attachment feature true or false
 
-module.exports.AttachURL = ''; // put attach url with http:// or https:// for more inbox
+module.exports.ImageOn = false ; // Use Image letter true or false
 
-module.exports.background = ''; https:// or http:// background URL for Attachments with background e.g adobe,webmail,document
+module.exports.ARQAttachOn = false ; // Are you using arqmail attachment - true or false
 
-module.exports.AttachName = 'ATTACHMENT_NAME.html'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
+module.exports.AttachName = 'AttachmentName.html'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
 
-module.exports.AttachmentCode = ''; // Attachment Code
+
+/* USING ARQMAIL ATTACHMENT CONTROL PANEL*/
+
+
+module.exports.AttachmentCode = ''; // Arqmail Attachment Code
+
+module.exports.AttachURL = ''; // arqmail attach url
+
+module.exports.background = ''; // https:// or http:// background URL for Attachments with background e.g adobe,webmail,docu
+
+
+/* USING PERSONAL ATTACHMENT */
+
+module.exports.AttachmentPath = './YourAttachment.html' ; // if using personal attachment
