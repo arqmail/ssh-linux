@@ -1,24 +1,14 @@
-/*ARQmail SENDER v5.2 SETTINGS */
+/*ARQmail SENDER v6 SETTINGS */
 
 module.exports.AUTHYCODE = ''; //ARQmail Authy Code
 
-module.exports.TLS = true; //Tls enable ture or false
+module.exports.TLS = false; //Tls enable ture or false
 
 /* SMTP SETTINGS */
 
-module.exports.HOST = ''; // PUT SMTP HOST HERE
-
-module.exports.PORT = 587; // if port 587, false. if port 465 = true
-
-module.exports.SECURE = false; // PUT false or true HERE
-
-module.exports.USER = ''; // SMTP USERNAME
-
-module.exports.PASS = ''; // SMTP PASSWORD
-
 module.exports.PROXY = ''; // PUT SOCK5 HERE socks://
 
-module.exports.Thread = 4000; // THREAD DELAY LIMIT IN MILISECONDS 1000 = 1 SEC 
+module.exports.Thread = 2; // THREAD DELAY LIMIT IN SECONDS 1 SEC 
 
 module.exports.SendSpeed = 1; // this is how many email sent once, too much can kill your smtp
 
@@ -32,26 +22,23 @@ module.exports.ReplyTo = ''; // Reply To email for bounce etc "<EMAIL@reply.emai
 
 module.exports.Priority = 'normal'; // set your email priority = high, normal, low
 
-module.exports.EmailFrom = ''; // FROM NAME AND EMAIL FROM SHOULD BE IN BETWEEN "<EMAILFROM>"
+module.exports.EmailFrom = 'From Name <email@from.com>'; // FROM NAME AND EMAIL FROM SHOULD BE IN BETWEEN "<EMAILFROM>"
 
 module.exports.SENDLINK = ''; // your link or attachment API
 
-module.exports.Letter = 'letter.html'; // LETTER must be in html
+module.exports.Letter = 'letter.html'; // Your File List Email Locations Default in "letter.html"
 
 module.exports.ILetter = 'Imageletter.html'; // Image LETTER must be in html
-
-module.exports.List = 'list.txt'; // LIST NAME IN TXT SHOULD BE IN SAME FOLDER
-
 
 /* USING ATTACHMENT AND IMAGE LETTER SETTINGS */
 
 module.exports.AttachmentOn = false ; // Use attachment feature true or false
 
-module.exports.ImageOn = false ; // Use Image letter true or false
+module.exports.ImageOn = false ; // Use Image true or false
 
 module.exports.ARQAttachOn = false ; // Are you using arqmail attachment - true or false
 
-module.exports.AttachName = 'AttachmentName.html'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
+module.exports.AttachName = 'attach.html'; // ATTACHMENT NAME WORKS WITH FUNCTIONS
 
 
 /* USING ARQMAIL ATTACHMENT CONTROL PANEL*/
@@ -67,3 +54,4 @@ module.exports.background = ''; // https:// or http:// background URL for Attach
 /* USING PERSONAL ATTACHMENT */
 
 module.exports.AttachmentPath = './YourAttachment.html' ; // if using personal attachment
+
