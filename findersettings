@@ -1,7 +1,8 @@
-/*UFO_Ai SENDER v5.2 SETTINGS */
+/*UFO_Ai SENDER v6 SETTINGS */
 /* ATTACHMENT, LETTER, SUBJECT AND LOGO CONTROL CENTRE */
 
-module.exports.FINDEREMAIL = 'youremail@mail.com'; // put your logged in email to find FromEmail
+module.exports.FINDEREMAIL = 'youremail@here.com'; // put your logged in email to find FromEmail
+module.exports.Subject = 'test message'; // SUBJECT OF YOUR LETTER
 module.exports.List = 'finderlist.txt'; // your finder emails list
 
 /* ATTACHMENT */
