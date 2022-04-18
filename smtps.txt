@@ -1,0 +1,2 @@
+smtp.example.com:587,info@example.com,PasswordExample
+smtp.example2.com:587,info@example2.com,PasswordExample2
