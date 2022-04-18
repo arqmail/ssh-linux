@@ -1,0 +1,19 @@
+*smtp_approach_type : normal
+
+= normal | No specific configuration needed.
+
+= pooled | A fixed amount of pooled connections are used to send messages.
+
+= direct | SMTP connection is opened directly to recipients MX server, skipping any local SMTP relays. 
+
+*maillist_filename : list.txt
+
+Your File List Email Locations Default in "list.txt"
+
+*finderlist_filename : finderlist.txt
+
+Your Finder Email List Locations Default in "finderlist.txt"
+
+*smtp_limits: 5
+
+amount of smtp to be used in this sending
